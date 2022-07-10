@@ -1,0 +1,171 @@
+.container-background {
+  background: radial-gradient(
+    592px at 48.2% 50%,
+    rgba(255, 255, 249, 0.6) 0%,
+    rgba(160, 199, 254, 0.6) 100%
+  );
+  border-radius: 15px;
+  border: 2px solid #afc1d5;
+  padding: 30px 40px 20px 40px;
+  margin: 0 auto;
+  margin-top: 20px;
+  max-width: 700px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  color: #455d7a;
+}
+
+.form-header {
+  padding-bottom: 15px;
+}
+
+.header-label {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.text-input {
+  border-radius: 5px;
+  border: 2px solid #afc1d5;
+  margin-top: 10px;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+::placeholder {
+  color: #ffa1a1;
+  opacity: 1;
+}
+
+.search-button {
+  border-radius: 5px;
+  border: 2px solid #afc1d5;
+  padding: 5px 10px;
+  background: #5d7490;
+  color: #fff;
+  font-size: 16px;
+}
+.search-button:hover {
+  background: #f95959;
+  color: #fff;
+  border: 2px solid #ffa1a1;
+}
+
+.current-weather-btn {
+  border-radius: 5px;
+  border: 2px solid #ffa1a1;
+  padding: 5px 10px;
+  background: #f95959;
+  color: #fff;
+  font-size: 16px;
+}
+
+.current-weather-btn:hover {
+  background: #5d7490;
+  color: #fff;
+  border: 2px solid #afc1d5;
+}
+
+.icon-sun-current {
+  color: #5d7490;
+  font-size: 50px;
+}
+
+.curent-information-all {
+  border-radius: 15px;
+  border: 2px solid #afc1d5;
+  margin: 15px 0;
+  padding: 15px;
+}
+
+.container-background h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0;
+  color: #f95959;
+}
+
+.container-background ul {
+  padding: 0%;
+  margin: 0;
+}
+
+.container-background li {
+  list-style: none;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+}
+
+.small-units {
+  font-weight: 400;
+  font-size: 14px;
+  position: relative;
+  bottom: 10px;
+}
+
+.fahrenheit-link {
+  color: #455d7a;
+  text-decoration: none;
+}
+
+.celsius-link {
+  text-decoration: none;
+  color: #f95959;
+  text-decoration: none;
+}
+
+.units-link:hover {
+  color: #f95959;
+}
+
+.container-background h5 {
+  color: #455d7a;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  margin: 0;
+}
+
+.container-background h4 {
+  color: #f95959;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  margin: 0;
+}
+.night-temperature {
+  font-weight: 400;
+  color: #fe9090;
+}
+
+.icons-style {
+  color: #5d7490;
+  font-size: 50px;
+  padding: 10px;
+}
+
+.hint-footer {
+  color: #afc1d5;
+  font-size: 12px;
+  margin: 0;
+}
+
+.footer-end {
+  font-size: 14px;
+  line-height: 18px;
+  color: #7e93ac;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.coded-by {
+  text-decoration: none;
+  color: #455d7a;
+  font-weight: 500;
+}
+
+.coded-by:hover {
+  text-decoration: underline;
+  color: #f95959;
+}
